@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "rotatearray",
+            "request": "launch",
+            "mainClass": "rotatearray",
+            "projectName": "myfirstprjct_b643d29c"
+        },
+        {
+            "type": "java",
             "name": "ReverseArray1",
             "request": "launch",
             "mainClass": "ReverseArray1",
