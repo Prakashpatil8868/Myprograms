@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "evenprefixarray",
+            "request": "launch",
+            "mainClass": "evenprefixarray",
+            "projectName": "myfirstprjct_b643d29c"
+        },
+        {
+            "type": "java",
             "name": "rotatearray",
             "request": "launch",
             "mainClass": "rotatearray",

@@ -3,18 +3,17 @@ public class rotatearray {
   
    
         public static void reverseArray(int[] arr,int s, int e) {
-            int start = s;
-            int end = e;
+            
     
-            while (start < end) {
+            while (s < e) {
                 // Swap elements at start and end positions
-                int temp = arr[start];
-                arr[start] = arr[end];
-                arr[end] = temp;
+                int temp = arr[s];
+                arr[s] = arr[e];
+                arr[e] = temp;
     
                 // Move start pointer forward and end pointer backward
-                start++;
-                end--;
+                s++;
+                e--;
             }
         }
     
